@@ -3,14 +3,14 @@
  ### [YouTube Demonstration](https://www.youtube.com/watch?v=edycb0rOAKQ)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Using Microsoft Azure, I created a network of virtual machines to represent an organization. I then secured two of the machines and exposed the third machine to raw internet. The purpose of this project is to show the importance of maintaining endpoint security on all devices because malicious attackers are always trying to attack vulnerable systems. The success of the exercise shows that with proper security protocols in place the threat vector from failed attempted logins can be greatly reduced to near 0.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Microsoft AZURE</b> 
+- <b>Microsoft Sentinel</b>
 
 <h2>Environments Used </h2>
 
