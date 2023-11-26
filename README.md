@@ -20,7 +20,7 @@ Using Microsoft Azure, I created a network of virtual machines to represent an o
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://imgur.com/a/OEC6qlv" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a/OEC6qlv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
