@@ -3,35 +3,35 @@
  ### [YouTube Demonstration](https://www.youtube.com/watch?v=edycb0rOAKQ)
 
 <h2>Description</h2>
-In this article I am going to show how to perform a credentialed vulnerability scan of a system using OpenVAS/Greenbone. 
+In this demonstration I am going to show the importance of endpoint security. For this demonstration I will be creating a virtual network in Azure. This network will represent an organization. I will then secure 1 of the devices and leave the others exposed to the raw internet. I will then create a SIEM using Microsoft Sentinel and I will check to see if any malicious attackers have tried to login to my machines remotely. 
 <br />
 
 
 <h2>Utilities Used</h2>
 
 - <b>Microsoft AZURE</b> 
-- <b>openVAS/Greenbone</b>
+- <b>Microsoft Sentinel</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
-- <b>Linux</b>
+
 <h2>Walk-through:</h2>
 
 <p align="center">
-Start by loading up azure portal and going to the marketplace. In the marketplace search box search for OpenVAS. Select OpenVAS as displayed below.: <br/>
-<img src="login.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Started by loging into Microsoft Azure: <br/>
+<img src="Login.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Selected Virtual machines and followed the steps to create  virtual machines including creating usernames and passwords for all VM's:  <br/>
 <img src="Select VM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create a Log Analytic Workstation to recive all logs from the virtual machines: <br/>
+Created a Log Analytic Workstation to recive all logs from the virtual machines: <br/>
 <img src="Law.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Connect all virtual machines to the Log analytics Workstation. This process can take several minutes:  <br/>
+Connected all virtual machines to the Log analytics Workstation. This process can take several minutes:  <br/>
 <img src="Vms connected to law.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
