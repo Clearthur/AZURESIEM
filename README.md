@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://www.youtube.com/watch?v=edycb0rOAKQ)
 
 <h2>Description</h2>
-In this demonstration I am going to show the importance of endpoint security. For this demonstration I will be creating a virtual network in Azure. This network will represent an organization. I will then secure 1 of the devices and leave the others exposed to the raw internet. I will then create a SIEM using Microsoft Sentinel and I will check to see if any malicious attackers have tried to login to my machines remotely. 
+Using Microsoft Azure, I created a network of virtual machines to represent an organization. I then secured two of the machines and exposed the third machine to raw internet. The purpose of this experiment is to show the importance of maintaining security on all devices on a network because malicious attackers are always trying to attack vulnerable systems. The success of the exercise shows that with proper security protocols in place the threat vector from failed attempted logins can be greatly reduced to near 0. 
 <br />
 
 
