@@ -3,24 +3,24 @@
  ### [YouTube Demonstration](https://www.youtube.com/watch?v=edycb0rOAKQ)
 
 <h2>Description</h2>
-Using Microsoft Azure, I created a network of virtual machines to represent an organization. I then secured two of the machines and exposed the third machine to raw internet. The purpose of this experiment is to show the importance of maintaining security on all devices on a network because malicious attackers are always trying to attack vulnerable systems. The success of the exercise shows that with proper security protocols in place the threat vector from failed attempted logins can be greatly reduced to near 0.
+In this article I am going to show how to perform a credentialed vulnerability scan of a system using OpenVAS/Greenbone. 
 <br />
 
 
 <h2>Utilities Used</h2>
 
 - <b>Microsoft AZURE</b> 
-- <b>Microsoft Sentinel</b>
+- <b>openVAS/Greenbone</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
-
+- <b>Linux</b>
 <h2>Walk-through:</h2>
 
 <p align="center">
-Started by loading the AZURE homescreen seen below: <br/>
-<img src="Login.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Start by loading up azure portal and going to the marketplace. In the marketplace search box search for OpenVAS. Select OpenVAS as displayed below.: <br/>
+<img src="login.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Selected Virtual machines and followed the steps to create  virtual machines including creating usernames and passwords for all VM's:  <br/>
